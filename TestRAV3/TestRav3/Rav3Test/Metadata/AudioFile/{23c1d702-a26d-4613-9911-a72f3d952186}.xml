@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{23c1d702-a26d-4613-9911-a72f3d952186}">
+		<property name="assetPath">
+			<value>Rat_07.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.39504166666666668</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{165014a9-ef21-45f5-a03e-9257e01eda75}</destination>
+		</relationship>
+	</object>
+</objects>

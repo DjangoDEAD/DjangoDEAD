@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerReturn" id="{fcfc41f0-6a28-4e63-b354-ea042c31c01b}">
+		<property name="volume">
+			<value>-19</value>
+		</property>
+		<property name="overridingInputFormat">
+			<value>2</value>
+		</property>
+		<property name="name">
+			<value>Reverb</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{5eafec2b-dba3-423b-9838-8fa8b34d7abd}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{52fc0359-cdf6-4a6a-8450-e839678ccd52}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{d0d39ccb-3ab0-4589-9fba-d8a520af7c94}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{5eafec2b-dba3-423b-9838-8fa8b34d7abd}">
+		<relationship name="effects">
+			<destination>{68060371-3ee0-46ac-8482-457beb6f396c}</destination>
+			<destination>{fe71daf7-ef0c-4644-9857-09a1fbd8c539}</destination>
+			<destination>{658d3fa7-b0db-4968-a762-87eca17fdb26}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{52fc0359-cdf6-4a6a-8450-e839678ccd52}" />
+	<object class="MixerBusFader" id="{68060371-3ee0-46ac-8482-457beb6f396c}" />
+	<object class="GainEffect" id="{fe71daf7-ef0c-4644-9857-09a1fbd8c539}">
+		<property name="gain">
+			<value>10</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{658d3fa7-b0db-4968-a762-87eca17fdb26}">
+		<property name="decayTime">
+			<value>4100</value>
+		</property>
+		<property name="earlyDelay">
+			<value>120</value>
+		</property>
+		<property name="lateDelay">
+			<value>62</value>
+		</property>
+		<property name="HFReference">
+			<value>5200</value>
+		</property>
+		<property name="highCut">
+			<value>13000</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>61</value>
+		</property>
+		<property name="wetLevel">
+			<value>0</value>
+		</property>
+		<property name="dryLevel">
+			<value>-80</value>
+		</property>
+	</object>
+</objects>

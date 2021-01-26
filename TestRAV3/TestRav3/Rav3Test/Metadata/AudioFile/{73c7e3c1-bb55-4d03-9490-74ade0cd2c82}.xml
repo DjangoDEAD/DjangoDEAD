@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{73c7e3c1-bb55-4d03-9490-74ade0cd2c82}">
+		<property name="assetPath">
+			<value>Rock_04.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.3758750000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{165014a9-ef21-45f5-a03e-9257e01eda75}</destination>
+		</relationship>
+	</object>
+</objects>

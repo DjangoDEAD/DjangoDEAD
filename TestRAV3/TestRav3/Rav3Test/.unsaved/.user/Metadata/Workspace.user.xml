@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="Workspace" id="{d7b8bdcf-41ac-41db-bdc3-374adabd46f8}">
+		<relationship name="projectSettings">
+			<destination>{8bf3d6c8-330b-4043-acc5-c22e329a9de0}</destination>
+		</relationship>
+		<relationship name="changelist">
+			<destination>{b87a6713-a070-48a7-9c57-6e5bb2c162d3}</destination>
+		</relationship>
+	</object>
+	<object class="ProjectSettings" id="{8bf3d6c8-330b-4043-acc5-c22e329a9de0}">
+		<relationship name="activePlatform">
+			<destination>{7d92f733-dccf-4586-b0d9-a1752cd4dae0}</destination>
+		</relationship>
+	</object>
+	<object class="WorkspaceChangelist" id="{b87a6713-a070-48a7-9c57-6e5bb2c162d3}" />
+</objects>
